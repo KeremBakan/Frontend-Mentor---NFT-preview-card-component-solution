@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body {
+    background: hsl(217, 54%, 11%);
+}
+
+.card-body {
+    background: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 525px;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    font-family: 'Outfit', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.card-body > img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card-view {
+    background: hsl(178, 100%, 50%, 0%);
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card-view > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    visibility: hidden;
+}
+
+.card-view:hover {
+    background: hsl(178, 100%, 50%, 50%);
+}
+
+.card-view:hover img {
+    visibility: visible;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: x-large;
+    color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.card-title:hover {
+    color: hsl(178, 100%, 50%);;
+}
+
+.card-p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+.card-price {
+    color: hsl(178, 100%, 50%);
+    margin-top: 25px;
+    display:inline-block;
+    font-size: 14px;
+}
+
+.card-price > img {
+    width: 9px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.card-price > p {
+    display: inline;
+    font-weight: 600;
+    vertical-align: middle;
+} 
+
+.card-time {
+    color: hsl(215, 51%, 70%);
+    margin-top: 25px;
+    display:inline-block;
+    float: right;
+    font-size: 14px;
+}
+
+
+.card-time > img {
+    width: 14px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.card-time > p {
+    display: inline;
+    font-weight: 400;
+    vertical-align: middle;
+} 
+
+hr {
+    color: hsl(215, 32%, 27%);
+    margin-top: 25px;
+}
+
+.card-creator {
+    color: hsl(215, 51%, 70%);
+    margin-top: 15px;
+}
+
+.card-creator > img {
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.card-creator > p {
+    display: inline-block;
+}
+
+.card-creator > p a {
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.card-creator > p a:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+.attribution { font-size: 11px; text-align: center;padding: 20px;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    }
